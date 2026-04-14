@@ -87,4 +87,4 @@ cursor.close()
 conexao.close()
 
 print("-" * 50)
-print(f" Pronto {artigos_salvos} artigos brasileiros de 2025 foram catalogados.")
+print(f" Pronto {artigos_salvos} artigos de 2025 foram catalogados.")
