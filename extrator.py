@@ -15,7 +15,7 @@ try:
     
   
     cursor.execute("TRUNCATE TABLE ArtigosIA")
-    print("🧹 Banco de dados limpo para nova coleta.")
+    print("Banco de dados limpo para nova coleta.")
 
 except mysql.connector.Error as err:
     print(f"Erro de conexão: {err}")
